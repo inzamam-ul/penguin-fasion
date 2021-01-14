@@ -1,0 +1,74 @@
+h1, h2, h5{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    font-size: 80px;
+}
+h1{
+    font-size: 80px;
+}
+h2{
+    font-size: 45px; 
+}
+h5{
+    font-size: 35px; 
+}
+.logo{
+    width: 250px;
+}
+.promotion img{
+    width: 100%;
+}
+.bg-sweet{
+    background-color: #FFFBF0;
+}
+.text-highlight-1{
+    color: #FABE4C;
+}
+.text-highlight-2{
+    color: #363958;
+}
+.btn-color{
+    background-color: #A4BC46;
+}
+.woman img{
+
+    height: 290px;
+    width: auto;
+    margin:  0 auto;
+    padding: 30px;
+}
+img{
+    width: 100%;
+}
+.contact-inner img{
+    height: 70px;
+    width: auto;
+
+}
+.contact h4{
+    color: #363958;
+    font-weight: bold;
+}
+
+.more-rounded{
+    border-radius: 10px;
+}
+
+#subscribe img{
+    border-radius: 10px;
+}
+
+
+
+@media (max-width : 769px){
+    .mobile{
+        flex-direction: column-reverse!important;
+    }
+    .contact-img{
+        padding: 50px;
+    }
+    .contact-single{
+        flex-direction: column!important;
+        text-align: center;
+    }
+}
